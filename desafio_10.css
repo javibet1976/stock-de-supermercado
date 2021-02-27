@@ -1,0 +1,126 @@
+.imagen {
+  width: 100%;
+  height: 100px;
+}
+
+h1,
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.div-formulario {
+  display: flex;
+  justify-content: center;
+}
+
+/* EL CONTENEDOR DEL FORMULARIO 1*/
+
+.grid-container1 {
+  background-color: lightblue;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-gap: 5px;
+  justify-content: center;
+  padding: 5px;
+}
+
+.grid-container1 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  text-align: center;
+}
+
+.alto {
+  height: 35px;
+  text-align: center;
+}
+
+/* EL CONTENEDOR DEL FORMULARIO 2*/
+
+.grid-container2 {
+  background-color: #43aa8b;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
+  grid-gap: 5px;
+  justify-content: center;
+  padding: 5px;
+}
+
+.grid-container2 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  text-align: center;
+}
+
+.titulo-formulario {
+  font-size: 1rem;
+}
+
+.cajita-texto {
+  width: 120px;
+  height: 20px;
+  text-align: center;
+}
+
+.cajita-numero {
+  width: 60px;
+  height: 20px;
+  text-align: center;
+}
+
+/* LA TABLA */
+.div-tabla {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+}
+
+table tr td {
+  background-color: #f9c74f;
+  border: 1px solid black;
+}
+
+.titulo {
+  text-align: center;
+  width: 100px;
+}
+
+.centrado {
+  width: 100px;
+}
+
+.cantidad {
+  text-align: center;
+}
+
+#bienvenida {
+  color: red;
+  font-size: 1.5rem;
+}
+
+.nombre_del_producto {
+  text-transform: capitalize;
+  height: 25px;
+}
+
+.boton {
+  width: 80px;
+  height: 30px;
+}
+/* PALETA DE COLORES */
+/* rojo: f94144;
+naranjaoscuro: f3722c;
+naranjaclaro: f8961e;
+pastel: f9844a;
+amarilo: f9c74f;
+verdeclaro: 90be6d;
+verdeintermedio: 43aa8b;
+verdeoscuro: 4d908e;
+azuloscuro: 577590;
+azulclaro: 277da1; */
